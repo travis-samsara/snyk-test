@@ -1,5 +1,5 @@
 name: Example workflow for Golang using Snyk 2
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   security:
     runs-on: ubuntu-latest
